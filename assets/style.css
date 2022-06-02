@@ -1,49 +1,77 @@
-h1{
+h1 {
     text-align: center;
+    font-size: 50px;
+    font-family: 'Abril Fatface';
 }
+
 body {
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
- 
+
 }
+
 nav {
     width: 100%;
-    text-align: center; 
-    border-top: black;
-    border-bottom: black;
-}
+    text-align: center;
+    position: sticky;
+    top: 0;
+    color: white;
+    opacity: 0.5;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     
+}
+
 nav ul {
-    list-style-type: none;
+    
     margin: 0;
     padding: 10px;
     border-top: black;
     border-bottom: black;
-    
+
 }
+
 nav li {
     display: inline;
     margin-right: 15px;
     border-top: black;
     border-bottom: black;
 }
- .more-articles {
-     max-width:1600px; text-align:left; display:block;
-     padding-left: 10px;
-     
-    } 
 
- header {
-    font-family: 'Abril Fatface';
- }   
+.more-articles {
 
- p {
+    text-align: center;
+    
+    padding-left: 10px;
+
+
+}
+
+p {
     font-family: 'Source Sans Pro', sans-serif;
- }
- h2,h4{
-    font-family: 'Roboto Slab';
- }
- main{
-     padding: 10px;
- }
+    text-align: center;
+}
 
+
+h4 {
+    font-family: 'Roboto Slab';
+}
+
+main {
+    padding: 10px;
+    display: block;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+}
+
+h5 {
+    color: red;
+}
+section{
+    display: inline-block;
+    width: 44%;
+    margin:0 1em;
+}
